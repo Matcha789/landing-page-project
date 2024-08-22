@@ -1,52 +1,7 @@
 * {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     margin: 0;
     padding: 0;
+    max-height: 100%;
 }
 
-.page-container {
-    display: flex;
-    flex-direction: column;
-}
-
-#hero{
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    color: white; 
-}
-
-#navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.header-logo{
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.link-list{
-    display: flex;
-    flex-direction: row;
-    font-size: 18px;
-}
-
-
-
-.opening-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.opening-section > img {
-    width: 100px;
-    height: 100px;
-}
-
-.hero-main{
-    display: flex;
-    flex-direction: column;
-}
