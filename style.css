@@ -5,3 +5,20 @@
     max-height: 100%;
 }
 
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-right > img {
+    height: 100px;
+    width: 100px;
+}
