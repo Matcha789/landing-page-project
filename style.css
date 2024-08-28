@@ -13,8 +13,20 @@ body{
     
 }
 
-.header{
+.header, .hero{
+    background-color: #1F2937;
+}
+
+.header-margin{
     display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 30px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
