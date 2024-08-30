@@ -20,8 +20,30 @@ body{
 .header-margin{
     display: flex;
     justify-content: space-between;
-    color: white;
-    margin: 30px;
+    margin: 20px 200px;
+}
+
+.header-logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.margin-wrapper{
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .title{
