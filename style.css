@@ -13,7 +13,7 @@ body{
     
 }
 
-.header, .hero{
+.header, .hero, footer{
     background-color: #1F2937;
 }
 
@@ -55,4 +55,9 @@ ul{
 .hero-right > img {
     height: 100px;
     width: 100px;
+}
+
+.footer-margin{
+    margin-left: 200px;
+    margin-right: 200px;
 }
